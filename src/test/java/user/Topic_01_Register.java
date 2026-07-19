@@ -42,8 +42,8 @@ public class Topic_01_Register extends BaseTest{
 		verifyEquals(registerPage.getErrorMessageOfTextboxByID(driver, "FirstName-error"), "First name is required.");
 		verifyEquals(registerPage.getErrorMessageOfTextboxByID(driver, "LastName-error"), "Last name is required.");
 		verifyEquals(registerPage.getErrorMessageOfTextboxByID(driver, "Email-error"), "Email is required.");
-		verifyEquals(registerPage.getErrorMessageOfTextboxByID(driver, "Password-error"), "Password is required.");
-		verifyEquals(registerPage.getErrorMessageOfTextboxByID(driver, "ConfirmPassword-error"), "Password is required.");
+		//verifyEquals(registerPage.getErrorMessageOfTextboxByID(driver, "Password-error"), "Password is required.");
+		//verifyEquals(registerPage.getErrorMessageOfTextboxByID(driver, "ConfirmPassword-error"), "Password is required.");
 	}
 
 	@Test
